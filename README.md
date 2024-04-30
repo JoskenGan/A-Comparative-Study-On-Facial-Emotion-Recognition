@@ -1,1 +1,8 @@
-# A-Comparative-Study-On-Facial-Emotion-Recognition
+![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/22b9ddf7-5d4f-49c8-824d-c81e01459a39)# A-Comparative-Study-On-Facial-Emotion-Recognition
+
+Abstract— Facial emotion recognition (FER) has garnered significant attention due to its applications in human-computer interaction, healthcare, psychology, and entertainment. This research addresses critical gaps in FER, including the lack of standardized platforms, uniform evaluation metrics, and comprehensive algorithm comparisons. The research includes improving the FER through using Kaggle and GitHub platforms. With Kaggle's standardized platform, it will be possible to run machine learning algorithms in the same running environment for researchers, ensuring consistent conditions for algorithm comparisons. Utilizing GitHub as the primary platform, researchers will access a centralized data repository housing diverse datasets and associated codebases, facilitating fair and accurate algorithm evaluations. Moreover, the research also introduces uniform evaluation metrics to enhance algorithm comparisons, encouraging consistency and reliability. By utilizing a variety of datasets such as CK, FER aligned, FER aligned + CK, RAF-DB, and AffectNet, the study conducts a detailed assessment. Outcomes show that DenseNet121 with pre-trained weights achieved high accuracies especially: 0.7318 on the FER aligned, 0.7763 on FER aligned + CK, 0.8488 on RAF-DB, and 0.6304 on AffectNet datasets. The custom ResNet model and the custom XceptionNet model designed for CK dataset yielded 100% accuracy, demonstrating the framework's potential in improving the FER technology for more efficient and accurate emotion recognition systems.
+
+# Datasets
+
+
+![Uploading image.png…]()
