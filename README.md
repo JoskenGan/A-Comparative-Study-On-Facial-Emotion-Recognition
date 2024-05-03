@@ -9,7 +9,7 @@ The research focuses on a comparative study of Facial Emotion Recognition (FER) 
 ![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/44632d6e-1758-42aa-b305-fb3eebf396f3)
 
 
-For access to valuable data, it’s recommended that everyone download the dataset available at 👇https://drive.google.com/drive/folders/1S5UIGynMALlFpxdh4qJQkY1jln6shYb3?usp=drive_link 
+For access to valuable data, it’s recommended that everyone download the dataset. The dataset is available at 👇https://drive.google.com/drive/folders/1S5UIGynMALlFpxdh4qJQkY1jln6shYb3?usp=drive_link 
 
 # DenseNet's Accuracy
 
