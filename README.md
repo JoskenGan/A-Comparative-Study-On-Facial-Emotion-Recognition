@@ -56,9 +56,6 @@ TABLE below is a summary of the performance of the proposed methods across diffe
 
 # Summary of the Result of Comparison Among All Models
 
-![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/945fb34a-4ed7-4f9d-863d-47d49a066143)
-
-
 ![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/721c44ef-aef5-4b1a-bb7d-cc93263ac6e0)
 
 
