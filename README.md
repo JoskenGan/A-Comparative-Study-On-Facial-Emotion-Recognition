@@ -1,4 +1,4 @@
-# A-Comparative-Study-on-Facial-Emotion-Recognition-by-using-Deep-Learning
+![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/52b0630f-909c-414c-ab69-efc5f32662c4)# A-Comparative-Study-on-Facial-Emotion-Recognition-by-using-Deep-Learning
 
 Abstract— Facial emotion recognition (FER) has garnered significant attention due to its applications in human-computer interaction, healthcare, psychology, and entertainment. This research addresses critical gaps in FER, including the lack of publicly released code, lack of standardized platforms where each researcher is having his/her own hardware and software specification, limited used of evaluation metrics in evaluating the performance of algorithms, and limited of comparison scope among algorithms. In this study, these datasets: CK, FER aligned, FER aligned + CK, RAF-DB, and AffectNet are used in the experiment. We suggest the use of cloud-based platform, i.e. Kaggle as the standardized platform and released the code through GitHub. Different techniques such as image pre-processing and transfer learning are applied to evaluate the impact on the classification results of the selected deep learning models. We include classification accuracy, confusion metrics and recall for the evaluation metrics. As a results, DenseNet121 with pre-trained weights stands out for its high accuracy across datasets, especially in capturing subtle expressions. This study is not only filling in existing gaps but also paving the way for more exact, reliable, and trustworthy FER applications that contribute to broader social benefits and advancements in this area.
 
@@ -7,8 +7,6 @@ In this study, the contribution is as below:
 2.	The code on how we compare each algorithm is released through GitHub: https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition 
 3.	We include few evaluation metrics, i.e. confusion metrics, classification accuracy and recall. 
 4.	The scope of experiments is expanded by including pre-processing techniques, transfer learning and the impact of input dimensions to explore insights the strengths and weaknesses of each algorithm in this comparative study. This helps researchers and developers make informed choices of most suitable algorithm for facial emotion recognition.
-
-![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/d7ada16f-ee18-43e5-b233-878096c14af8)
 
 
 # Datasets
@@ -59,6 +57,9 @@ TABLE below is a summary of the performance of the proposed methods across diffe
 # Summary of the Result of Comparison Among All Models
 
 ![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/945fb34a-4ed7-4f9d-863d-47d49a066143)
+
+
+![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/721c44ef-aef5-4b1a-bb7d-cc93263ac6e0)
 
 
 The figure above the testing accuracy of all models in graph version. Ultimately, it can be summarized that the model of DenseNet with Pre-trained (DenseNet121) is highly accurate and generalizes well across different datasets, demonstrating robustness, feature extraction, and generalization ability. The practice of using pre-trained models usually results in a higher testing accuracy and more efficient performances, and this can be particularly useful in tasks such as emotion classification where knowledge provided by the pre-existing models forms the backbone of the model training and inference. In this respect, the DenseNet model with Pre-trained (DenseNet121) outperforms the other ones and provides high accuracy across various emotions recognition tasks. Hence, DenseNet121 proves to be an effective model on many different datasets because of its architecture as well as its training methods. This dense connectivity pattern involves feature reuse and enables the propagation of information across the network, introducing efficient learning and representation of complicated patterns. Also, the utilization for transfer learning of pre-trained weights increases the model’s generalization ability by using knowledge from large-scale datasets. Such integration of architectural design, feature reuse, and transfer learning is responsible for the overall robustness and high accuracy of this network across distinct dataset setups. 
