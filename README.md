@@ -8,6 +8,9 @@ In this study, the contribution is as below:
 3.	We include few evaluation metrics, i.e. confusion metrics, classification accuracy and recall. 
 4.	The scope of experiments is expanded by including pre-processing techniques, transfer learning and the impact of input dimensions to explore insights the strengths and weaknesses of each algorithm in this comparative study. This helps researchers and developers make informed choices of most suitable algorithm for facial emotion recognition.
 
+![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/d7ada16f-ee18-43e5-b233-878096c14af8)
+
+
 # Datasets
 
 The research focuses on a comparative study of Facial Emotion Recognition (FER) using diverse datasets: CK dataset, FER aligned dataset, a combination of FER aligned with CK dataset, RAF-DB dataset, and AffectNet dataset. The CK and FER aligned datasets offer well-defined emotion categories and sufficient images, while their combination further enhances coverage. The RGB format and diverse emotions in the RAF-DB dataset and the high-resolution images in AffectNet provide unique strengths. The multiple datasets allow researchers to choose based on specific requirements like standardized expressions, diverse emotions, RGB analysis, or high-resolution imaging, facilitating advancements in FER. TABLE below shows the details of datasets used in the experiment where the number of data samples for each emotion is reported under ‘Emotions’ and the dimensions and number of channels (i.e. 3 is for RGB and 1 is for grayscale) is reported under ‘Input Shape’.
@@ -53,3 +56,9 @@ TABLE below is a summary of the performance of the proposed methods across diffe
 ![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/06e1d6b4-1186-4c30-be62-cfb0e61bb8ca)
 
 
+# Summary of the Result of Comparison Among All Models
+
+![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/945fb34a-4ed7-4f9d-863d-47d49a066143)
+
+
+The figure above the testing accuracy of all models in graph version. Ultimately, it can be summarized that the model of DenseNet with Pre-trained (DenseNet121) is highly accurate and generalizes well across different datasets, demonstrating robustness, feature extraction, and generalization ability. The practice of using pre-trained models usually results in a higher testing accuracy and more efficient performances, and this can be particularly useful in tasks such as emotion classification where knowledge provided by the pre-existing models forms the backbone of the model training and inference. In this respect, the DenseNet model with Pre-trained (DenseNet121) outperforms the other ones and provides high accuracy across various emotions recognition tasks. Hence, DenseNet121 proves to be an effective model on many different datasets because of its architecture as well as its training methods. This dense connectivity pattern involves feature reuse and enables the propagation of information across the network, introducing efficient learning and representation of complicated patterns. Also, the utilization for transfer learning of pre-trained weights increases the model’s generalization ability by using knowledge from large-scale datasets. Such integration of architectural design, feature reuse, and transfer learning is responsible for the overall robustness and high accuracy of this network across distinct dataset setups. 
