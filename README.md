@@ -49,7 +49,7 @@ TABLE below shows the final accuracy of various XceptionNet model on different d
 
 # Proposed Method's Accuracy
 
-TABLE below is a summary of the performance of the proposed methods across different datasets. Proposed Custom ResNet and Custom XceptionNet achieved 100% accuracy on the CK dataset. For the FER aligned dataset, the DenseNet121 model, that was pre-trained came up with an accuracy of 0.7318, improving to 0.7763 when combined with the CK dataset. The pre-trained DenseNet121 model obtained 0.8488 accuracy on RAF-DB and 0.6304 on AffectNet. These results showed that the proposed method had the highest accuracy among the others, which showed that it was effective in face emotion recognition tasks across different datasets.
+TABLE below is a summary of the performance of the proposed methods across different datasets. Proposed Custom ResNet and Custom XceptionNet achieved 100% accuracy on the CK dataset. For the FER aligned dataset, the DenseNet121 model, that was pre-trained came up with an accuracy of 0.7318, improving to 0.7763 when combined with the CK dataset. The pre-trained DenseNet121 model obtained 0.8488 accuracy on RAF-DB and 0.6304 on AffectNet.
 
 ![image](https://github.com/JoskenGan/A-Comparative-Study-On-Facial-Emotion-Recognition/assets/168083511/06e1d6b4-1186-4c30-be62-cfb0e61bb8ca)
 
