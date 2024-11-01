@@ -1,5 +1,7 @@
 # A-Comparative-Study-on-Facial-Emotion-Recognition-by-using-Deep-Learning
 
+# DOI: 10.1109/icoict61617.2024.10698120
+
 Abstract— Facial emotion recognition (FER) has garnered significant attention due to its applications in human-computer interaction, healthcare, psychology, and entertainment. Deep learning algorithms have been widely applied and improve the performance of FER. However, some critical gaps in FER, including the lack of standardized comparative platforms, limited used of evaluation metrics may have hinder the comprehensive understanding of various deep learning algorithms in FER. This study proposed some useful guidelines which include a standardized platform, more evaluation metrics and explored the impact of transfer learning and input size on FER. These datasets: CK, FER aligned, FER aligned + CK, RAF-DB, and AffectNet are used in the experiment. The research used the cloud-based platform, i.e. Kaggle as the standardized platform and the code was released through GitHub. Through the suggested guidelines for evaluation, some interesting insights such as the performance of each different emotion for each dataset and each deep learning algorithm, the impact of different input sizes and transfer learning are revealed.
 
 In this study, the contribution is as below: 
